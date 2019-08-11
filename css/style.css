@@ -3,6 +3,12 @@ Html{
     background: #f0f0f0; 
 }
 
+@media(max-device-width: 450px){
+    Html{
+        background: #ffffff;
+    }
+}
+
 header{
     position: relative;
     width: 70em;
