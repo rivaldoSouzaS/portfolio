@@ -295,7 +295,7 @@ a:hover{
     position: absolute;
 }
 
-@media(max-device-width: 450px){
+@media(max-device-width: 2175px){
     Html{
         position: absolute;
         background: #f0f0f0;
