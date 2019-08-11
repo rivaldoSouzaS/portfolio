@@ -1,17 +1,7 @@
 
+
 Html{
     background: #f0f0f0; 
-}
-
-@media(max-device-width: 450px){
-    Html{
-        background: #ffffff;
-    }
-
-    #site{
-        margin-left: 0px;
-	height: 500px;
-    }
 }
 
 header{
@@ -302,6 +292,28 @@ a:hover{
 }
 
 #html{
-    position:
+    position: absolute;
 }
 
+@media(max-device-width: 450px){
+    Html{
+        position: absolute;
+        background: #f0f0f0;
+    }
+    
+    header{
+    position: relative;
+    background: #ffffff;
+    border-radius: 15px;
+    margin-right: 190px;
+    margin-left: 0px;
+    }
+    
+    main{
+    position: relative;
+    background: #ffffff;
+    border-radius: 15px;
+    margin-right: 190px;
+    margin-left: 0px;
+    }  
+}
