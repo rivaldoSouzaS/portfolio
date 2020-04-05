@@ -1,5 +1,4 @@
 
-
 Html{
     background: #f0f0f0; 
 }
@@ -256,7 +255,7 @@ hr{
   left: 90px;
 }
 
-#html{
+#htmlx{
   position: absolute;
   height: 5px;/*Altura da linha*/
   width: 200px;
@@ -287,33 +286,276 @@ a{
     text-decoration:none;
     color: black;
 }
+
 a:hover{
    color: #5B9BD5; 
 }
 
-#html{
-    position: absolute;
+#imagEmail{
+    display: none;
 }
 
-@media(max-device-width: 2175px){
-    Html{
-        position: absolute;
-        background: #f0f0f0;
-    }
-    
-    header{
-    position: relative;
-    background: #ffffff;
-    border-radius: 15px;
-    margin-right: 190px;
-    margin-left: 0px;
-    }
-    
-    main{
-    position: relative;
-    background: #ffffff;
-    border-radius: 15px;
-    margin-right: 190px;
-    margin-left: 0px;
-    }  
+#imagTelefone{
+    display: none;
 }
+#imagDownload{
+    display: none;
+}
+
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+         
+        Html{
+            background: #f0f0f0;
+        }
+        
+        header{
+            position: relative;
+            background: #ffffff;
+            border-radius: 15px;
+            left: 47px;
+            width: 1010px;
+        }
+         
+         main{
+            position: relative;
+            height: 5400px;            
+            background: #f0f0f0;
+            border-radius: 15px;
+            left: 0px;
+        }
+         
+         #divCirculo{
+            width: 285px;
+            height: 285px;
+            border-radius: 100%;
+            float: left;
+            margin-top: 10px;
+            margin-left: 10px;
+             
+            border-left: 4px solid;
+            border-right: 4px solid;
+            border-bottom:4px solid;
+            border-top: 4px solid; 
+            border-color: #0E192C;
+            background: url(../imagens/download.png);
+            background-size: 100% 100%;
+        }
+
+        #diviRetang{
+            width: 670px;
+            height: 180px;
+            background: #0E192C;
+            float: right;
+            margin-top: 80px;
+            margin-right: 30px;
+            text-align:center;
+        }
+    /*TODAS AS LINHAS QUE ESTAO PRESENTES DEPOIS DAS DESCRICOES DOS CAPITULOS*/
+        hr{
+         position: absolute;
+         top: 60px;
+         width: 600px;
+         border: 2px solid; 
+        }
+    
+        #hrcursos{
+         position: absolute;
+         top: 58PX;
+         width: 650px;
+        }
+    
+        #hrExperiencia{
+            position: absolute;
+            top: 58px;
+            width: 650px; 
+        }
+    
+        .hrEstilizado {
+           top: 50px;
+	       height:8px;
+           width: 60px;
+	       border: 2px solid; 
+	       border-color:#5B9BD5;
+           background: #5B9BD5;
+        }
+         /*TERMINA AQUI AS LINHAS*/
+         
+        .divsDeTexto{
+            position: relative;
+            width: 1010px;
+            height: 550px;
+            background: #ffff;
+            text-align: justify;
+            font-size: 50px;
+        }
+         
+        .divsTextoTrabalho{ /*divs resposaveis pelo historico profissional */
+            position: relative;
+            width: 1010px;
+            height: 650px;
+            margin-right: 60px;
+            background:#ffffff;
+            text-align: justify;
+            font-size: 50px;
+
+         }
+    
+        #perfil{
+            margin-left: 50px;
+            top: 2px;
+        }
+
+        #objetivo{
+            margin-left: 50px;
+            margin-top: 2px;
+        }
+
+        #escolaridade{
+            margin-left:50px;
+            margin-top: 2px;
+        }
+         
+         #primeiroCargo{
+            margin-top: 2px;
+        }
+
+        #segundoCargo{
+            margin-top: 2px;
+        }
+
+        #terceiroCargo{
+            margin-top: 2px;
+        }
+         
+         .esperiencias{
+            text-align: center;
+            text-decoration-color: #ffffff;
+        }
+    
+    /*div mae de cursos e habilidades */
+        #cursos{
+            position: relative;
+            width: 1011px;
+            height: 1330px;
+            margin-left: 420px;
+            margin-top: 2px;
+        }
+    
+    #linha-vertical {
+        display: none;
+    }
+        #cursosMassa{
+            position: relative;
+            width: 980px;
+            height: 550px;
+            background: white;
+            text-align: justify;
+            font-size: 50px;
+        }
+    
+        #habilidades{
+        position: absolute;
+        width: 980px;
+        height: 550px;
+        right: 10px;
+        background: white;
+        text-align: justify;
+        font-size: 50px;
+       }
+    
+        #java{
+          position: absolute;
+          height: 20px;/*Altura da linha*/
+          width: 450px;
+          background: black;
+          top: 65px;
+          left: 300px;
+        }
+
+        #htmlx{
+          position: absolute;
+          height: 20px;/*Altura da linha*/
+          width: 600px;
+          background: black;
+          top: 180px;
+          left: 300px;
+        }
+
+        #css{
+          position: absolute;
+          height: 20px;/*Altura da linha*/
+          width: 550px;
+          background: black;
+          top: 280px;
+          left: 300px;
+        }
+
+        #comunicacao{
+          position: absolute;
+          height: 20px;/*Altura da linha*/
+          width: 600px;
+          background: black;
+          top: 390px;
+          left: 300px;
+        }
+    
+    footer{
+            position: relative;
+            margin-top: 3300px;
+            margin-left: 55px;
+            width: 1005px;
+            height: 400px;
+            background: white;
+            font-size: 50px;
+            
+        }
+    
+        #imagemIcones{
+            display: none;
+        }
+
+        #imagemIcones2{
+            display: none;
+        }
+    
+        #email{
+            display: none;
+        }
+
+        #telefone{
+            display: none;
+        }
+
+        #link{
+            display: none;
+        }
+
+        #endereco{
+            display: none;
+        }
+        #download{
+            display: none;
+        }
+    
+        #imagEmail{
+            display: inline;
+        }
+
+        #imagTelefone{
+            display: inline;
+        }
+        
+        #imagDownload{
+            position: absolute;
+            display: inline;
+            height: 200px;
+            width: 180px;
+            top: 160px;
+            left: 365px;
+            background-image: url(../imagens/downloadimg.png);
+            border-bottom-style: hidden;
+        }
+
+    }
+

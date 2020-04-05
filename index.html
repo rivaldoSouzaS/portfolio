@@ -7,16 +7,12 @@
 	</head>
 
 	<body>
-        <div id="site">
             <header>
             <div id="diviRetang">
                 <h1 id="meuNome">Rivaldo Souza <br> Analista de Sistemas - Jr</h1>
             </div>
             
-            <div id="divCirculo">
-            
-            
-            </div>
+            <div id="divCirculo"> </div>
         </header>
         
 		<main>
@@ -98,7 +94,7 @@
                     <p>Comunicação</p>
                         
                         <div id="java"></div>
-                        <div id="html"></div>
+                        <div id="htmlx"></div>
                         <div id="css"></div>
                         <div id="comunicacao"></div>
                     </div>
@@ -119,9 +115,53 @@
                 <p id="telefone"><a>+55 (87) 9 8845-6010</a></p>
                 <p id="link"><a href="https://www.linkedin.com/in/rivaldosouzas">www.linkedin.com/in/rivaldosouzas</a></p>
                 <p id="endereco"><a>Rua: Jose Ozorio Brejinho-PE</a></p>
-                <p id="download"><a href="documentos/certificado.pdf" download = curriculo>certificados</a></p>
+                <p id="download"><a href="documentos/certificado.pdf" download = curriculo>download cv</a></p>
+                
+                <img id="imagEmail" src="imagens/email.png" onclick="copiarEmail()">
+                <img id="imagTelefone" src="imagens/telefone.png" onclick="copiarTelefone()">
+                <button id="imagDownload"><a href="documentos/certificado.pdf" download = curriculo>opa</a></button>
+                
+                <script>
+                    function copiarEmail(){
+                        //O texto que será copiado
+                        const texto = "rivaldosouzaxxii@gmail.com";
+                        //Cria um elemento input (pode ser um textarea)
+                        let inputTest = document.createElement("input");
+                        inputTest.value = texto;
+                        //Anexa o elemento ao body
+                        document.body.appendChild(inputTest);
+                        //seleciona todo o texto do elemento
+                        inputTest.select();
+                        //executa o comando copy
+                        //aqui é feito o ato de copiar para a area de trabalho com base na seleção
+                        document.execCommand('copy');
+                        //remove o elemento
+                        document.body.removeChild(inputTest);
+                        
+                        alert("Email copiado para area de tranferencia");
+                    }
+                    
+                    function copiarTelefone(){
+                        //O texto que será copiado
+                        const texto = "87988456010";
+                        //Cria um elemento input (pode ser um textarea)
+                        let inputTest = document.createElement("input");
+                        inputTest.value = texto;
+                        //Anexa o elemento ao body
+                        document.body.appendChild(inputTest);
+                        //seleciona todo o texto do elemento
+                        inputTest.select();
+                        //executa o comando copy
+                        //aqui é feito o ato de copiar para a area de trabalho com base na seleção
+                        document.execCommand('copy');
+                        //remove o elemento
+                        document.body.removeChild(inputTest);
+                        
+                        alert("Telefone copiado para area de tranferencia");
+                    }
+                </script>
+                
             </footer>
 		</main>
-        </div>
 	</body>
 </html>
