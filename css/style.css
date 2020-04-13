@@ -303,7 +303,7 @@ a:hover{
 }
 
 
-@media only screen and (max-width: 900px ) {
+@media only screen and (max-width: 768px) {
          
         Html{
             background: #f0f0f0;
