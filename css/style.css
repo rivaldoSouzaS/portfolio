@@ -353,7 +353,7 @@ a:hover{
     
         #meuNome{
             top: 30px;
-            font-size: 80px;
+            font-size: 60px;
             color:  white;
             text-align: center;
         }
@@ -479,7 +479,7 @@ a:hover{
           width: 450px;
           background: black;
           top: 65px;
-          left: 300px;
+          left: 350px;
         }
 
         #htmlx{
@@ -488,7 +488,7 @@ a:hover{
           width: 600px;
           background: black;
           top: 180px;
-          left: 300px;
+          left: 350px;
         }
 
         #css{
@@ -497,7 +497,7 @@ a:hover{
           width: 550px;
           background: black;
           top: 280px;
-          left: 300px;
+          left: 350px;
         }
 
         #comunicacao{
@@ -506,7 +506,7 @@ a:hover{
           width: 600px;
           background: black;
           top: 390px;
-          left: 300px;
+          left: 350px;
         }
     
     footer{
@@ -567,3 +567,4 @@ a:hover{
         }
 
     }
+
