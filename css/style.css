@@ -302,6 +302,7 @@ a:hover{
     display: none;
 }
 
+/*Aparti daqui é a vercao mobil*/
 
 @media only screen and (max-width: 500px) {
          
@@ -320,7 +321,7 @@ a:hover{
          
          main{
             position: relative;
-            height: 5400px;            
+            height: 6630px;            
             background: #f0f0f0;
             border-radius: 15px;
             left: 0px;
@@ -393,7 +394,7 @@ a:hover{
         .divsDeTexto{
             position: relative;
             width: 1010px;
-            height: 590px;
+            height: 700px;
             background: #ffff;
             text-align: justify;
             font-size: 50px;
@@ -402,12 +403,11 @@ a:hover{
         .divsTextoTrabalho{ /*divs resposaveis pelo historico profissional */
             position: relative;
             width: 1010px;
-            height: 650px;
+            height: 800px;
             margin-right: 60px;
             background:#ffffff;
             text-align: justify;
             font-size: 50px;
-
          }
     
         #perfil{
@@ -446,7 +446,7 @@ a:hover{
         #cursos{
             position: relative;
             width: 1011px;
-            height: 1330px;
+            height: 1670px;
             margin-left: 420px;
             margin-top: 2px;
         }
@@ -457,7 +457,7 @@ a:hover{
         #cursosMassa{
             position: relative;
             width: 980px;
-            height: 550px;
+            height: 800px;
             background: white;
             text-align: justify;
             font-size: 50px;
@@ -466,7 +466,7 @@ a:hover{
         #habilidades{
         position: absolute;
         width: 980px;
-        height: 550px;
+        height: 690px;
         right: 10px;
         background: white;
         text-align: justify;
@@ -478,8 +478,8 @@ a:hover{
           height: 20px;/*Altura da linha*/
           width: 450px;
           background: black;
-          top: 65px;
-          left: 350px;
+          top: 103px;
+          left: 370px;
         }
 
         #htmlx{
@@ -487,8 +487,9 @@ a:hover{
           height: 20px;/*Altura da linha*/
           width: 600px;
           background: black;
-          top: 180px;
-          left: 350px;
+          top: 275px;
+          top: 270px;
+          left: 370px;
         }
 
         #css{
@@ -496,28 +497,26 @@ a:hover{
           height: 20px;/*Altura da linha*/
           width: 550px;
           background: black;
-          top: 280px;
-          left: 350px;
+          top: 420px;
+          left: 370px;
         }
 
         #comunicacao{
           position: absolute;
           height: 20px;/*Altura da linha*/
           width: 600px;
-          background: black;
-          top: 390px;
-          left: 350px;
+          top: 605px;
+          left: 370px;
         }
     
     footer{
             position: relative;
-            margin-top: 3300px;
+            margin-top: 4100px;
             margin-left: 55px;
             width: 1005px;
             height: 400px;
             background: white;
             font-size: 50px;
-            
         }
     
         #imagemIcones{
@@ -564,7 +563,16 @@ a:hover{
             left: 365px;
             background-image: url(../imagens/downloadimg.png);
             border-bottom-style: hidden;
+            border-bottom-color: white;
         }
+    
+        #aLink{
+            color: white;
+        }
+    
+    p{
+        padding: 30px;
+    }
 
     }
 
