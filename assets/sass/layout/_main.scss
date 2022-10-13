@@ -142,6 +142,7 @@
 						margin-left: auto;
 						margin-right: auto;
 					}
+					
 				}
 			}
 		}
@@ -155,4 +156,12 @@
 		@include breakpoint('<=xsmall') {
 			width: 100%;
 		}
+	}
+
+	.my-video{
+		max-width: 30rem;
+		max-height: 30rem;
+		margin-left: auto;
+		margin-right: auto;
+		background-color: red;
 	}
